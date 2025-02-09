@@ -39,11 +39,12 @@ You can install these dependencies via pip:
 
 ```bash
 pip install tensorflow pandas numpy matplotlib scikit-learn lifetimes plotly seaborn google-cloud-bigquery openpyxl
+```
 
 
 
+## Notebook Structure
 
-Notebook Structure
 The Colab notebook is divided into these key sections:
 
 1. Data Loading and Preprocessing
@@ -104,12 +105,14 @@ The raw CLV values are highly variable. The weighted CLV metric, which normalize
 Customer Journey Mapping:
 Interactive visualizations help in understanding customer transitions over time, which is crucial for targeted marketing and retention strategies.
 
-Running the Notebook
+### Running the Notebook
+
 Open the provided Colab notebook in Google Colab.
 Upload the online_retail_II.xlsx file to your Colab environment.
 Run the notebook cell-by-cell. If you plan to use BigQuery integration, follow the authentication prompts.
 Review the inline outputs and visualizations to understand the analysis and results.
-Conclusion
+
+## Conclusion
 This project provides a robust technical framework for customer churn analysis, segmentation, and CLV estimation. It is designed for a technical audience and is intended to be a starting point for further enhancements and customizations. Feel free to fork the repository and adapt the analysis to your specific needs.
 
 
